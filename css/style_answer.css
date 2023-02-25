@@ -18,64 +18,74 @@ table td {
     margin-top: 100px;
 }
 
-.level5 td {
+
+/* レベル６ */
+
+.level6 td {
     border: 1px solid;
 }
 
-.level6 tr:first-child td {
+/* レベル７ */
+
+.level7 tr:first-child td {
     border: 1px solid;
 }
 
-.level7   tr:first-child td {
+/* レベル８ */
+
+.level8   tr:first-child td {
     border: 1px solid;
 }
 
-.level7 tr:last-child td {
+.level8 tr:last-child td {
     border: 1px solid;
 }
 
-.level8 th {
-    border: 1px solid;
-}
+
+/* レベル９ */
 
 .level9 th {
     border: 1px solid;
 }
 
-.level9 tr:last-child td {
+
+/* レベル１０ */
+
+.level10 th {
     border: 1px solid;
 }
 
-.level10 tr td:first-child {
+.level10 tr:last-child td {
     border: 1px solid;
 }
 
-.level10 tr td:last-child {
+
+/* レベル１１ */
+
+.level11 tr td:first-child {
     border: 1px solid;
 }
 
-.level11 td {
+.level11 tr td:last-child {
     border: 1px solid;
 }
 
-.level11 table {
-    border-collapse:collapse
+
+/* レベル１２ */
+
+.level12 td {
+    border: 1px solid;
 }
-
-
 
 .level12 table {
     border-collapse:collapse
 }
 
-.level12 tr td{
-    border-right: 1px solid;
-}
 
-.level12 tr td:last-child{
-    border-right: none;
-}
+/* レベル１３ */
 
+
+/* border-collapse:collapseでボーダーを重ねる */
 
 
 .level13 table {
@@ -90,30 +100,51 @@ table td {
     border-right: none;
 }
 
-.level13 tr td{
-    border-bottom: 1px solid;
-}
 
-.level13 tr:last-child td{
-    border-bottom: none;
-}
-
+/* レベル１４ */
 
 
 .level14 table {
     border-collapse:collapse
 }
 
-.level14 tr th:first-child {
+.level14 tr td{
+    border-right: 1px solid;
+}
+
+.level14 tr td:last-child{
+    border-right: none;
+}
+
+.level14 tr td{
+    border-bottom: 1px solid;
+}
+
+.level14 tr:last-child td{
+    border-bottom: none;
+}
+
+
+/* レベル１５ */
+
+
+
+.level15 table {
+    border-collapse:collapse
+}
+
+.level15 tr th:first-child {
     border-right: 1px solid;
 
 }
 
-.level14 tr:first-child th {
+.level15 tr:first-child th {
     border-bottom: 1px solid;
 
 }
 
+
+/* レベルEX1 */
 
 
 .levelEX1 tr:nth-child(2) td:nth-child(2){
