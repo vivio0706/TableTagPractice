@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    margin: 100px 0;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+table td {
+    padding: 5px;
+}
+
+.practice {
+    margin-top: 100px;
+}
+
+
+/* ここからコードをかきましょう */
+
